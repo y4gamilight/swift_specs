@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreBasic",
+        "printedName": "CoreBasic",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "excute",
+            "printedName": "excute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SampleFramwork9CoreBasicC6excuteyyF",
+            "mangledName": "$s14SampleFramwork9CoreBasicC6excuteyyF",
+            "moduleName": "SampleFramwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SampleFramwork9CoreBasicC",
+        "mangledName": "$s14SampleFramwork9CoreBasicC",
+        "moduleName": "SampleFramwork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 7
+  },
+  "ConstValues": []
+}
